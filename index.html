@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taqwa Asif | Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome Icons for Footer -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- HERO SECTION (Dark Modern Banner) -->
-    <header class="hero-section">
+    <!-- HERO HEADER WITH COVER PHOTO -->
+    <header class="hero-header-section">
+        <div class="cover-photo-container">
+            <!-- Banner Image -->
+            <img src="cover-banner.png" alt="Cover Photo" class="cover-banner-img" onerror="this.style.display='none';">
+            <!-- Overlapping Profile Avatar -->
+            <img src="profile-logo.png" alt="Taqwa Asif Logo" class="profile-avatar-overlapping">
+        </div>
+
         <div class="hero-content">
-            <img src="profile-logo.png" alt="Taqwa Asif Logo" class="profile-avatar">
             <h1>Taqwa Asif</h1>
             <p class="tagline">Turning Ideas Into Impact</p>
             <p class="bio-subtitle">Student & AI Enthusiast | Building Practical AI Projects & Web Applications</p>
             
-            <!-- Call to Action Buttons -->
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
                 <a href="https://github.com/taqwaasif1022" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
@@ -27,8 +31,8 @@
         </div>
     </header>
 
-    <!-- HACKATHONS & ACHIEVEMENTS SECTION -->
-    <section class="section-container">
+    <!-- HACKATHONS SECTION -->
+    <section class="section-container" id="projects">
         <h2 class="section-title">Hackathons & Devpost Achievements</h2>
         
         <div class="featured-card">
@@ -40,7 +44,6 @@
             </a>
         </div>
 
-        <!-- Badges Grid -->
         <div class="badges-grid">
             <div class="badge-card">
                 <div class="badge-icon"><i class="fas fa-globe"></i></div>
@@ -74,7 +77,6 @@
             I enjoy turning ideas into functional applications and learning how AI systems work behind the scenes.
         </p>
 
-        <!-- Skill Pills -->
         <div class="skills-container">
             <span class="skill-pill">Web Development</span>
             <span class="skill-pill">Chatbot Development</span>
@@ -84,7 +86,7 @@
         </div>
     </section>
 
-    <!-- FOOTER SECTION -->
+    <!-- FOOTER -->
     <footer class="site-footer">
         <div class="footer-container">
             <p class="copyright">&copy; Taqwa Asif. All rights reserved.</p>
